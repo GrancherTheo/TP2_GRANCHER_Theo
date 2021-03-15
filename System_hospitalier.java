@@ -34,12 +34,14 @@ public class System_hospitalier {
 	}
 	
 	private String analyserRequete(Requête requête) {
-		// Analyser la requête
+		//  cette fonction va appelé la fonction getSymptomes() de la classe requete afin de les stocker dans une liste temporaire. Elle va appelé la fonction comparerDonnes() 
+		//  afin de pouvoir effectuer une analyse. 
 		return "requête analysée";
 	}
 	
 	private String comparerDonnes() {
-		// Comparaison des données
+		// fonction qui va etre appelée dans analys0erRequete(Requete requete), cette fonction va parcourir la liste listRequetes et si il y a une similarité entre 4 requetes par exemple, 
+		// elle va retourner la chaine de caractère "Cluster trouvé"
 		return "Cluster trouvé";
 	}
 

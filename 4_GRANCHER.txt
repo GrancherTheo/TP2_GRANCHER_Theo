@@ -1,1 +1,9 @@
 Je m'appelle Théo GRANCHER et je suis dans le groupe TP4.
+Explications pour la VII : 
+Lorsque l'on est dans la branche master on ne voit que les fichiers presents dans cette branche.
+En revanche lorsque que l'on est dans la branche mon_fichier on voit les fichiers à la fois présent dans cette branche mais aussi les fichiers présents dans la branche master.
+De plus j'ai commité mon fichier test.txt en étant dans la branche master tandis que j'ai commité mon fichier 4_GRANCHER.txt uniquement dans la branche mon_fichier.
+Lorsque l'on effectue un commit, git demande un commit log afin de visualiser les modifications ( effectuées sur tous les fichiers). 
+Lorsque l'on change de branche, GIT réinitialise notre répertoire de travail pour qu'il soit le meme que la dernière fois que nous avons fait un commit sur cette branche. 
+Il ajoute, retire et modifie automatiquement les fichiersde manière à s'assurer que notre copie du travail soit identique à ce qu'elle etait lors de notre dernier commit sur cette branche.
+Lors de notre dernier commit dans la branche master, nous n'avions ajouté que le fichier test.txt c'est la raison pour laquelle c'est le seul à apparaitre.
